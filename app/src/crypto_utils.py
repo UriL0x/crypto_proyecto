@@ -1,5 +1,3 @@
-# src/crypto_utils.py
-
 '''Este archivo contiene utilidades criptográficas para generar claves'''
 
 import os
@@ -10,7 +8,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 # CLAVE MAESTRA
 def gen_master_key():
-    return os.urandom(32)  # AES-256
+    return os.urandom(32)  
 
 # CIFRADO / DESCIFRADO AES-GCM
 def aesgcm_encrypt(key: bytes, plaintext: bytes):
