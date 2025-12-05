@@ -1,0 +1,4 @@
+# Para ejecutar
+
+- python cli.py --menu
+- python cli.py --ejecutar test
